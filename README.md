@@ -1,24 +1,23 @@
-# 🎨 OpenGL C++ Rendering Engine + JSON Map Loader
+# OpenGL C++ Rendering Engine + JSON Map Loader
 This is a personal graphics engine built in modern C++ using OpenGL, created as a learning project to better understand real-time rendering pipelines, game engine architecture, and file-based scene loading using custom JSON maps.
 
-⚠️ Not production-ready — just a playground for experimenting and learning.
+Not production-ready — just a playground for experimenting and learning.
 
 ![ezgif-6b0b42fbc28102](https://github.com/user-attachments/assets/56000a06-3a3c-44c4-8004-4905257d5a28)
 
-## ✨ Goals
+## Goals
 - Learn modern OpenGL (3.3+)
 - Build a flexible rendering pipeline from scratch
 - Create a simple map/scene loader using JSON
 - Experiment with camera movement, input, lighting, and shaders
 
-## 🧱 Features So Far
-- 🔺 Modern OpenGL rendering (VAOs, VBOs, shaders)
-- 🗂️ Custom JSON-based map/scene loader
-- 🧭 Basic first-person camera
-- 🖼️ Texture loading (via stb_image)
-- 🧪 Experimental shader system
+## Features So Far
+- Modern OpenGL rendering (VAOs, VBOs, shaders)
+- Custom JSON-based map/scene loader
+- Basic first-person camera
+- Texture loading (via stb_image)
   
-## 📂 Folder Structure
+## Folder Structure
 ```
 .
 ├── assets
@@ -97,7 +96,7 @@ This is a personal graphics engine built in modern C++ using OpenGL, created as 
         └── transform.cpp
 ```
         
-## 🧩 Example JSON Map Format
+## Example JSON Map Format
 ```
 [
   {
@@ -122,20 +121,20 @@ This is a personal graphics engine built in modern C++ using OpenGL, created as 
 ]
 ```
 
-## 🎮 Controls
+## Controls
 Key	Action
 W / A / S / D	Move camera
 Mouse	Look around
 ESC	Exit
 P Polygon Mode
 
-## 🧪 Notes
+## Notes
 Built this mostly to get comfortable with raw OpenGL and engine architecture.
 JSON scene loading was custom-built using nlohmann/json.
 Things are still rough — lots of experimental code and TODOs.
 Not optimized or modularized fully yet.
 
-## 🛣️ Roadmap (Maybe Someday)
+## Roadmap (Maybe Someday)
 Shadow mapping
 ECS-style entity system
 UI/Debug overlays (ImGui?)
